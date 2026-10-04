@@ -25,7 +25,7 @@ function index() {
             <span className={`text-8xl font-extrabold ${countColor}`}>{count}</span>
             <div className="gap-10 flex">
                 <button type="button" className="bg-black text-white py-2 px-10 rounded-2xl" onClick={addCount}>+</button>
-                <button type="button" className="bg-black text-white py-2 px-10 rounded-2xl" onClick={subCount}>-</button>
+                <button type="button" className="bg-black text-white py-2 px-10 rounded-2xl" onClick={subCount}>−</button>
                 <button type="button" className="bg-black text-white py-2 px-10 rounded-2xl" onClick={resetCount}>Reset</button>
             </div>
         </div>
